@@ -23,7 +23,7 @@ export default {
     },
     login () {
       const clientId = '7af084d1a5e342479af908d281c01e01' // Your client id
-      const redirectUri = 'http://localhost:8080'
+      const redirectUri = 'http://julcsi.eu/music-o-meter'
       const stateKey = 'spotify_auth_state'
       let state = this.generateRandomString(16)
       localStorage.setItem(stateKey, state)
